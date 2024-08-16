@@ -1,0 +1,108 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url('https://s2.glbimg.com/4J1KP8B8iS8tDhHyxTGJhPKkpO8=/smart/e.glbimg.com/og/ed/f/original/2020/02/03/computador-para-arquiteto-06.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 00px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: white;
+    background-color:black;
+    padding: 10px;
+    border-radius: 10px;
+    font-style: bold;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color:rgb(34, 201, 12);
+    color: #fff;
+    cursor: pointer;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+#clear-list {
+    background-color: red;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#clear-list:hover {
+    background-color:#c488b7;
+}
+
+ol {
+    list-style-type: disc;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+    
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.remove-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.remove-btn:hover {
+    background-color: #c488b7;
+}
